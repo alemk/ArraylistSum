@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Numberadder {
 
-    public int adder()
+    public String adder()
 
     {
-
+        int average;
         ArrayList<Integer> numbers = new ArrayList<Integer>();
         Integer sum = 0;
         Scanner keyboad = new Scanner(System.in);
@@ -21,7 +21,9 @@ public class Numberadder {
 
             sum += numbers.get(i);
         }
-        return sum;
+        average=sum/loopcount;
+
+        return "Sum " + sum +" <br/> Average: "+ average;
     }
 }
 
