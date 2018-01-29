@@ -23,7 +23,7 @@ public class Numberadder {
         }
         average=sum/loopcount;
 
-        return "Sum " + sum +" <br/> Average: "+ average;
+        return "Sum: " + sum +" <br/> Average: "+ average;
     }
 }
 
