@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class MainController {
     @RequestMapping("/")
-    public int sumcaller()
+    public String sumcaller()
     {
         Numberadder numadd = new Numberadder();
         return numadd.adder();
